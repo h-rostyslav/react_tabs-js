@@ -17,7 +17,7 @@ export const App = () => {
     <div className="section">
       <Tabs
         tabs={tabs}
-        activeTab={activeTabId}
+        activeTabId={activeTabId}
         onTabSelected={setActiveTabId}
       />
     </div>
